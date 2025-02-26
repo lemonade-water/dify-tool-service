@@ -3,8 +3,6 @@ import time
 import subprocess
 
 app = Flask(__name__)
-
-
 # 上传接口
 @app.route('/upload', methods=['POST'])
 def upload_markdown():

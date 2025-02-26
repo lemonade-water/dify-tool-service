@@ -2,11 +2,14 @@
     "themeVariables": {
         "fontSize": "16px",
         "nodeSpacing": 50,
-        "rankSpacing": 50
+        "rankSpacing": 50,
+        "fontFamily": "arial, sans-serif"
     },
     "flowchart": {
         "htmlLabels": false,
-        "useMaxWidth": false,
-        "width": 200
+        "useMaxWidth": true, 
+        "curve": "basis",
+        "padding": 20,
+        "defaultRenderer": "dagre-wrapper"
     }
 }
